@@ -5,8 +5,11 @@
     margin: 10px;
     border-radius: 25px;
 }
-img{
-    width: 100%;
+.card img{
+    width:100% ;
+    /* max-width:300px; */
+    height: 400px;
+    object-fit: cover;
     border-radius: 25px;
 }
 h2{
@@ -18,9 +21,5 @@ span {
 #pets{
     display: flex;
     justify-content: space-evenly;
-}
-@media (max-width: 375px) {
-    #pets{
-        flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
 }
