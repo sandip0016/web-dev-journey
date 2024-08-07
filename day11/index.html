@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png">
+    <title> Spotyfy - web player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="main">
+        <div class="sidebar">
+           <div class="nav"> 
+            <div class="nav-option " style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             <a href="#">Search</a>
+            </div>
+           </div>
+           <div class="library">
+            <div class="option">
+                <div class="lib-option nav-option">
+                    <i class="fa-solid fa-book"></i>
+                <a href="#">your library</a>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="lib-boxes">
+            <div class="box">
+                <p class="box-p1">Create your first playlist</p>
+                <p class="box-p2">It's easy, we'll help you</p>
+                <button class="badges"> Create playlist</button>
+            </div>
+            <div class="box">
+                <p class="box-p1">let's find some podcasts to follow</p>
+                <p class="box-p2">We'll keep you updated on new episodes</p>
+                <button class="badges"> Browse podcasts</button>
+            </div>
+            </div>
+           </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                <i class="fa-solid fa-less-than"></i>
+                <i class="fa-solid fa-greater-than"></i>
+            </div>
+            <div class="sticky-nav-option">
+                <button class="badges two"> Sign up</button>
+                <button class="badges one "> login</button>
+            </div>
+           </div>
+           <h2>Popular artists </h2>
+            <div class="card-container-first">
+                <div class="card-first">
+                    <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca" class="card-img-first">
+                    <p class="card-title">Pritam</p>
+                </div> 
+                <div class="card-first">
+                    <img src="https://i.scdn.co/image/ab6761610000e5eb73f95b06dd6a1663571321d7" class="card-img-first">
+                    <p class="card-title">Sushant KC</p>
+                </div> 
+                <div class="card-first">
+                    <img src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-55652,resizemode-75,msid-105630233/magazines/panache/spotify-launches-wrapped-2023-list-arijit-singh-tops-desi-charts-bhagavad-gita-emerges-as-most-streamed-podcast.jpg" class="card-img-first">
+                    <p class="card-title">Arijit singh</p>
+                </div> 
+                <div class="card-first">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/1deQzOQwArAsUgm2WdjtyI/en" class="card-img-first">
+                    <p class="card-title">Saijan Raj Vaidhya</p>
+                </div>
+                <div class="card-first">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/3bLWp801OAckSYWrb0sgsH/en" class="card-img-first">
+                    <p class="card-title">The Elements</p>
+                </div> 
+            </div>
+    
+            <h2>Popular albums</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2730451af1e5996228aeb7ca3dd" class="card-img">
+                    <p class="card-title">Maya Ma (2018 Compilation)</p>
+                    <p class="card-info">Sushant KC</p>
+                </div>
+                
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2730451af1e5996228aeb7ca3dd" class="card-img">
+                    <p class="card-title">Maya Ma (2018 Compilation)</p>
+                    <p class="card-info">Sushant KC</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2730451af1e5996228aeb7ca3dd" class="card-img">
+                    <p class="card-title">HIT MR HARD AND</p>
+                    <p class="card-info">Sushant KC</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2730451af1e5996228aeb7ca3dd" class="card-img">
+                    <p class="card-title">Maya Ma (2018 Compilation)</p>
+                    <p class="card-info">Sushant KC</p>
+                </div>
+
+            </div>
+            <h2>popular radio</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                </div>
+            </div>
+            <h2>features Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+
+            </div>  
+            <h2>Zzzzzzzzzz</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+                 <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273698de3a9f0f9794f7760ac7d" class="card-img">
+                    <p class="card-title">Roka Yo Samaya</p>
+                    <p class="card-info">Tribal Rain</p>
+                 </div>
+            </div>
+        </div>
+        </div>
+        <div class="music-player">Music-player</div>
+    </div>
+</body>
+</html>
