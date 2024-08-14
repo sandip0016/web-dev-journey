@@ -198,10 +198,6 @@ padding: 0.75rem 1rem;
         display: none;
     }
 }
-.cards-container{
-    display: flex;
-    flex-wrap: wrap;
-}
 .card-img{
     width: 100%;
     border-radius: 0.5rem;
@@ -247,6 +243,7 @@ padding: 0.75rem 1rem;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    /* width: 1000px    ; */
 
 }
 .card-image-container:hover{
@@ -281,6 +278,7 @@ padding: 0.75rem 1rem;
 }
 .card-container-first{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 1rem
 }
 
