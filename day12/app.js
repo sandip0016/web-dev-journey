@@ -1,10 +1,17 @@
-let color="green";
-if(color==="red"){
-    console.log("Stop! light color is red");
+let size= "L"
+if(size==="xL"){
+    console.log("price is Rs.250")
+    
 }
-if(color==="yellow"){
-    console.log("Slow down. light color is yellow");
+else if(size==="L"){
+    console.log("price is Rs.200")
+    
 }
-if(color==="green"){
-    console.log("go. light color is green");
+else if(size==="M"){
+    console.log("price is Rs.100")
+    
+}
+else {
+    console.log("price is Rs.50")
+    
 }
