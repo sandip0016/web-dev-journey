@@ -1,17 +1,9 @@
-let size= "L"
-if(size==="xL"){
-    console.log("price is Rs.250")
+ let str="aditya";
+ if (str[0]==="a" && str.length>3){
+    console.log("good string");
+ }
+ else{
+    console.log("not good string");
     
-}
-else if(size==="L"){
-    console.log("price is Rs.200")
-    
-}
-else if(size==="M"){
-    console.log("price is Rs.100")
-    
-}
-else {
-    console.log("price is Rs.50")
-    
-}
+ }
+ 
